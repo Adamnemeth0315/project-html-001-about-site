@@ -16,7 +16,7 @@
     <main class="wrapper">
         <section class="inner">
             <article class="content">
-                <img src="/IMG/85064882_199897401114021_8036109702659365734_n(1).jpg" alt="Me" width="500px">
+                <img src="/IMG/85064882_199897401114021_8036109702659365734_n(1).jpg" alt="Me" width="200px">
             </article>
         </section>
             <section class="inner">
@@ -45,18 +45,32 @@
                 </article>
             </section>
             <section class="inner">
-                <div class="form-control">
-                    <label for="name">Név</label>
-                    <input type="text" id="name">
-                </div>
-                <div class="form-control">
-                    <label for="email">Email</label>
-                    <input type="email">
-                </div>
-                <div class="form-control">
-                    <label for="message">Üzenet</label>
-                    <textarea name="sendMessage" id="message" cols="40" rows="4"></textarea>
-                </div>
+                <form action="" class="form-control">
+                    <fieldset>
+                        <legend>Adatok</legend>
+                        <div class="inputDiv">
+                            <label for="name">Név</label>
+                            <input type="text" id="name" minlength="5" required>
+                            <button class="btn btn-primary" id="namebtn">Küldés</button>
+                        </div>
+                        <div inputDiv>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                            <button class="btn btn-primary" id="emailbtn">Küldés</button>
+                        </div>
+                    </fieldset>
+
+                <fieldset>
+                    <legend>Üzenet</legend>
+                    <div >
+                        <label for="message">Üzenet</label>
+                        <textarea name="sendMessage" id="message" cols="40" rows="4" minlength="20"></textarea>
+                        <button class="btn btn-primary" id="sendBtn">Üzenet elküldése</button>
+                    </div>
+                </fieldset>
+                </form>
+                
+                <div id="parent"></div>
                 
 
             </section>
@@ -64,5 +78,6 @@
     <footer>
         <a href="index.html">Home</a>
     </footer>
+<script src="/JS/about.js"></script>
 </body>
 </html>

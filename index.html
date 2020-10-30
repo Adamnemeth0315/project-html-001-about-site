@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>Home page</h1>
+        <nav id="menu">
+            <div class="navbar">
+                <ul>
+                    <li class="links"><a href="works.html"><h3>Works</h3> </a></li>
+                    <li class="links"><a href="gallery.html"><h3>Gallery</h3></a></li>
+                    <li class="links"><a href="about.html"><h3>About</h3></a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <nav id="menu">
-        <div class="navbar">
-            <ul>
-                <li><a href="works.html">Works</a></li>
-                <li><a href="gallery.html">Galery</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </div>
-    </nav>
     <main class="wrapper">
         <section class="inner">        
         <h3>BIO</h3>
@@ -36,8 +36,26 @@
     </main>
         </section>
     <footer>
-        <h4>Vissza a navbarhoz.</h4>
-        <a href="#menu"><img src="/IMG/backarrow.png" alt="Back" id="backToNav"></a>
+        <section class="footer">
+            <div class="footerLinks">
+                <p>Elérhetőségeim</p>
+                <ul>
+                    <li class="links">
+                        <a href="https://www.facebook.com/adam.nemeth.161/">Facebook</a>
+                    </li>
+                    <li class="links">
+                        <a href="https://www.instagram.com/adams_nmth/">Instagram</a>
+                    </li>
+                    <li class="links">
+                        <a href="https://github.com/Adamnemeth0315?tab=repositories">Github</a>
+                    </li>
+                    <li class="links">
+                        <a href="#menu"><button class="btn btn-primary">Vissza az oldal tetejére.</button></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
     </footer>
 </body>
 </html>
