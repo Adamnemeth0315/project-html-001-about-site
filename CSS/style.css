@@ -6,3 +6,29 @@ img {
 .form-control {
     margin: 15px;
 }
+
+html {
+    background-color: cadetblue;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.innerbox {
+    display: inline-block;
+    width: 33,3% ;
+    margin: 180px;
+    border:solid black 2px;
+    padding: 70px;
+    background-color: darkslategray;
+}
+
+#backToNav {
+    width: 100px;
+    margin: 0;
+}
+
+.inner {
+    text-align: left;
+}

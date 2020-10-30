@@ -2,4 +2,13 @@ img {
     width: 650px;
     height: 650px;
     box-shadow: 2px black;
+    margin: 15px;
+}
+
+html {
+    background-color: darkgrey;
+}
+
+.inner {
+    text-align: center;
 }
