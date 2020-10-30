@@ -2,3 +2,7 @@ img {
     width: 650px;
     margin: 25px;
 }
+
+.form-control {
+    margin: 15px;
+}
