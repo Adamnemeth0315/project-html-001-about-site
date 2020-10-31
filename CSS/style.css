@@ -14,6 +14,11 @@ html {
 
 .wrapper {
     text-align: center;
+    background-color: cornflowerblue;
+}
+.content {
+    text-align: center;
+    margin: 20px;
 }
 
 .innerbox {
@@ -23,6 +28,16 @@ html {
     border:solid black 2px;
     padding: 70px;
     background-color: darkslategray;
+}
+
+.details {
+    display: inline-block;
+    width: 28%;
+    padding: 30px;
+    margin: 10px;
+}
+.details img {
+    width:380px ;
 }
 
 #backToNav {
@@ -73,4 +88,24 @@ fieldset {
 .footerLinks li a {
     text-decoration: none;
     color: white;
+}
+
+/* Inputs*/
+.inputDiv input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputDiv textarea {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputDiv button {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

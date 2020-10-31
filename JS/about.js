@@ -11,7 +11,3 @@ function sendMessage() {
 let button = document.querySelector("#sendBtn");
 button.addEventListener("click", sendMessage); 
 
-function sendName(){
-    let input = document.querySelector("#name");
-    console.log(input.value);
-}

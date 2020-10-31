@@ -12,28 +12,31 @@
         <nav class="menu">
             <div class="navbar">
                 <ul>
-                    <li class="links">
-                        <a href="index.html">Home</a>
-                    </li>
+                    <li class="links"><a href="index.html"><h3>Home</h3></a></li>
+                    <li class="links"><a href="works.html"><h3>Works</h3> </a></li>
+                    <li class="links"><a href="gallery.html"><h3>Gallery</h3></a></li>
+                    <li class="links"><a href="about.html"><h3>About</h3></a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="wrapper">
         <section class="inner">
-            <article class="content">
+            <article>
                 <img src="/IMG/85064882_199897401114021_8036109702659365734_n(1).jpg" alt="Me" width="200px">
             </article>
         </section>
             <section class="inner">
                 <article class="content">
-                    Gyógy- és sportmasszőr szakon végeztem a gimnáziumi éveim után, majd egy ideig sportmasszőrként doloztam, ezután 
-                    a turizmus irányába váltottam, amit nagyon szerettem, azonban a Covid járvány bebizonyította, hogy nem egy erős ágazat ilyen helyzetekben. 
-                    A programozás mindig is érdekelt és terveztem foglalkozni vele, így nagyon megörültem a lehetőségnek mikor értesültem az újratervezés programról. 
-                    Angolul beszélek, illetve a gimnáziumi éveim során tanultam olaszul, de sajnos az olasz tudásom azóta elkopott. 
-                    A hobbijaimról illetve erősségeimről lentebb láthattok felsorolást. 
+                    <h3>
+                        Gyógy- és sportmasszőr szakon végeztem a gimnáziumi éveim után, majd egy ideig sportmasszőrként doloztam, ezután 
+                        a turizmus irányába váltottam, amit nagyon szerettem, azonban a Covid járvány bebizonyította, hogy nem egy erős ágazat ilyen helyzetekben. 
+                        A programozás mindig is érdekelt és terveztem foglalkozni vele, így nagyon megörültem a lehetőségnek mikor értesültem az újratervezés programról. 
+                        Angolul beszélek, illetve a gimnáziumi éveim során tanultam olaszul, de sajnos az olasz tudásom azóta elkopott. 
+                        A hobbijaimról illetve erősségeimről lentebb láthattok felsorolást. 
+                    </h3>
                 </article>
-                <article class="content">
+                <article class="listContent">
                     <h3>Hobbik</h3>
                     <ol>
                         <li>Kirándulás</li>
@@ -41,7 +44,7 @@
                         <li>Utazás</li>
                     </ol>
                 </article>
-                <article class="content">
+                <article class="listContent">
                     <h3>Erősségeim</h3>
                     <ul>
                         <li>Gyorsaság</li>
@@ -59,26 +62,24 @@
                             <input type="text" id="name" minlength="5" required>
                             <button class="btn btn-primary" id="namebtn">Küldés</button>
                         </div>
-                        <div inputDiv>
+                        <div class="inputDiv" >
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email" pattern=".+@gmail.com" required>
                             <button class="btn btn-primary" id="emailbtn">Küldés</button>
                         </div>
                     </fieldset>
 
                 <fieldset>
                     <legend>Üzenet</legend>
-                    <div >
+                    <div class="inputDiv">
                         <label for="message">Üzenet</label>
                         <textarea name="sendMessage" id="message" cols="40" rows="4" minlength="20"></textarea>
+                        <small>Minimum 20 karakterből álló üzenetet küldjön.</small>
                         <button class="btn btn-primary" id="sendBtn">Üzenet elküldése</button>
                     </div>
                 </fieldset>
-                </form>
-                
-                <div id="parent"></div>
-                
-
+                </form> 
+                <div id="parent"></div>   
             </section>
     </main>
     <footer>
