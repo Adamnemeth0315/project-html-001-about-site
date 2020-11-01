@@ -54,3 +54,9 @@ html {
     display: flex;
 }
 
+@media screen and (min-width: 480px) {
+    .gallery {
+        width: 100%;
+    }
+}
+
