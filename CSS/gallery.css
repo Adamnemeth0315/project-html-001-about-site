@@ -54,7 +54,7 @@ html {
     display: flex;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
     .gallery {
         width: 100%;
     }
