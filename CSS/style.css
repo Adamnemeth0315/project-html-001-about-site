@@ -16,10 +16,13 @@ img {
 html {
     background-color: cadetblue;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
 font-family: "Henny";
+padding-left: 2em;
 }
 
 .wrapper {
@@ -46,6 +49,7 @@ font-family: "Henny";
     padding: 30px;
     margin: 10px;
 }
+
 .details img {
     width:380px ;
 }
@@ -118,5 +122,10 @@ fieldset {
 a {
     text-decoration: none;
     color: black;
+}
+
+.listContent > h3 {
+    text-decoration: underline;
+    margin-left: 2em;
 }
 

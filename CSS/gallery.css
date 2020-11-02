@@ -6,6 +6,7 @@
 
  h1 {
      font-family: "Henny";
+     padding-left: 2em;
  }
 
 img {
@@ -20,6 +21,10 @@ html {
 }
 
 .inner {
+    text-align: center;
+}
+
+header {
     text-align: center;
 }
 
@@ -54,7 +59,7 @@ html {
     display: flex;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .gallery {
         width: 100%;
     }
